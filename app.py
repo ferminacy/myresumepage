@@ -4,6 +4,6 @@ app = Flask(__name__)
 def hello_world():
     return render_template('home.html')
 
-app.run(host='0.0.0.0', port=5000)
+# app.run(host='0.0.0.0', port=5000)
 # this is to make sure it runs 
 
